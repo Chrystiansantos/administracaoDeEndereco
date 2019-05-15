@@ -25,14 +25,14 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr *ngFor="let cliente of clientes">
                         <th scope="row">1</th>
-                        <td>Joao Da Silva Carvalho</td>
-                        <td>12345678910</td>
-                        <td>Garavelo</td>
-                        <td>Assis chartoubrian</td>
-                        <td>Qd 21 lt 99</td>
-                        <td>Casa</td>
+                        <td>{{cliente.nome}}</td>
+                        <td>{{cliente.cpf}}</td>
+                        <td>{{cliente.setor}}</td>
+                        <td>{{cliente.rua}}</td>
+                        <td>{{cliente.endereco}}</td>
+                        <td>{{cliente.complemento}}</td>
                     </tr>
                 </tbody>
             </table>

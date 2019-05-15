@@ -13,5 +13,14 @@
             "senha": "1234",
             "telegone": "(62) 9 8888-8888"
         }
-    ]
+    ],
+    "cliente": [{
+        "id": 1,
+        "nome": "Snoopy",
+        "cpf": "123.456.789-10",
+        "setor": "Garavelo",
+        "rua": "Assis chartoubrian",
+        "endereco": "Qd 55 lt 300",
+        "complemento": "casa"
+    }]
 }
