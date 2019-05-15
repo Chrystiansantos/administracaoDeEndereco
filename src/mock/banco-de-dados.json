@@ -1,0 +1,17 @@
+{
+    "usuario": [{
+            "id": 1,
+            "nome": "Chrystian",
+            "login": "chrystian",
+            "senha": "1234",
+            "telefone": "(62) 9 9999-9999"
+        },
+        {
+            "id": 2,
+            "nome": "Joao",
+            "login": "joao",
+            "senha": "1234",
+            "telegone": "(62) 9 8888-8888"
+        }
+    ]
+}

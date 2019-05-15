@@ -1,0 +1,20 @@
+.container {
+    margin-top: 250px;
+}
+
+input {
+    border: 2px solid #1cb0f6;
+    border-radius: 50px;
+}
+
+input:focus {
+    outline: #1cb0f6;
+}
+
+.btn {
+    margin-left: 20px;
+}
+
+.margin {
+    margin-left: 10px;
+}
