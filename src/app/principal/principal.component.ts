@@ -8,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class PrincipalComponent implements OnInit {
 
   constructor() { }
-
+  public mostrarPrincipal: boolean = true;
   ngOnInit() {
+  }
+  public cad(): void {
+    this.mostrarPrincipal = false;
   }
 }

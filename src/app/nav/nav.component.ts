@@ -9,6 +9,7 @@ export class NavComponent implements OnInit {
 
   public saudacaoStr: string = "";
   public nomeUsuario: string = " !"
+  public logado: boolean = true;
   constructor() { }
 
   ngOnInit() {
